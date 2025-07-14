@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blue/Teal Gradient Background</title>
+    <title>Green Gradient Background</title>
     <style>
         body {
             margin: 0;
-            padding: 0;
+            padding: 20px;
             height: 100vh;
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            background: #f0f0f0;
+            box-sizing: border-box;
+        }
+        
+        .gradient-container {
+            width: 100%;
+            height: calc(100vh - 40px);
+            background: linear-gradient(135deg, #e8f5e8 0%, #a8d5a8 100%);
+            border-radius: 20px;
         }
     </style>
 </head>
 <body>
+    <div class="gradient-container"></div>
 </body>
 </html>
